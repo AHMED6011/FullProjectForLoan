@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html id="lang" lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta style="transition: 1s;" id="theme" name="color-scheme">
+  <link rel=" stylesheet" href="CSS/style.css">
+  <!-- Font Awesome File -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Jomhuria&family=Open+Sans:ital,wght@1,300;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="website icon" type="png" href="images/icons/home.webp">
+  <title>EasyLo</title>
+</head>
+
+<body>
+  <div id="load" class="load">
+    <h2><i class="fa-solid home fa-house"></i>EasyLo.</h2>
+  </div>
+  <!-- For Loader -->
+  <!-- Start Header -->
+  <div id="header" class="header">
+    <div class="container">
+      <h2><i class="fa-solid home fa-house"></i>EasyLo.</h2>
+      <button id="moon"><i class="fa-solid fa-moon"></i></button>
+      <ul id="nav-items" class="nav-items">
+        <li><a href="#landing">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#latest-news">Blog</a></li>
+        <li><a href="#footer">Contact</a></li>
+      </ul>
+      <button class="btn">Apply For Loan</button>
+      <i id="bar" class="fa-solid bar fa-bars"></i>
+    </div>
+  </div>
+  <!-- End Header -->
+  <!-- Start Weather Box -->
+  <div id="weather" class="weather">
+    <div class="data">
+      <span id="date"></span>
+      <p id="city"></p>
+      <p id="temp">&deg</p>
+    </div>
+    <div id="icon">
+      <img src="">
+      <p id="desc"></p>
+    </div>
+    <i id="arrow" class="fa-solid flex-cen arrow fa-angle-right" title="Click To See The Weather"></i>
+  </div>
+  <!-- End Weather Box -->
+  <!-- Start Landing -->
+
+  <div id="landing" class="landing">
+    <div class="container">
+      <div class="box-text  flex-cen">
+        <div class="content flex-bet">
+          <h2>The simple online home loan</h2>
+          <p>Financial uncertainity is hard on employees, and causes even.</p>
+          <button>OUR SERVICES</button>
+        </div>
+      </div>
+      <div class="box-loaning flex-cen">
+        <div class="content flex-bet">
+          <h3>How much you want?</h3>
+          <p>We previde online instant cash loans.</p>
+          <span>AMOUTN YOU WANT</span>
+          <select id="amount">
+            <option disabled selected hidden>Select Amount</option>
+            <option value="first">Category 1</option>
+            <option value="second">Category 2</option>
+            <option value="third">Category 3</option>
+          </select>
+          <span>PERIOD</span>
+          <select class="options" id="period" disabled>
+            <option disabled selected hidden>Select Period</option>
+            <option>1 Year</option>
+            <option>6 Months</option>
+            <option>3 Months</option>
+          </select>
+          <span>You have to pay: <strong id="end-price">$</strong></span>
+          <button>APPLE NOW</button>
+          <span>Our service is safe and instant.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- End Landing -->
+
+  <!-- Start Blog -->
+  <div class="blog">
+    <div class="main-title flex-cen">
+      <h2>Solutions For Every Business Needs.</h2>
+      <p>
+        The brochure must grab a viewer's attention and hold it
+        long enough to deliver the pertinent information
+      </p>
+    </div>
+    <div class="container grid-2-box">
+      <div class="box flex-bet">
+        <i class="fa-solid fa-house-chimney"></i>
+        <p>Home Loan</p>
+        <h2>What are my options and the cost to exercise?</h2>
+        <span>
+          Tools such as profile and text calculator show
+          the value of your stock options and exercise cost.
+        </span>
+      </div>
+      <div class="box flex-bet">
+        <i class="fa-solid fa-car"></i>
+        <p>Car Loan</p>
+        <h2>Should I exercise now or later? How can I afford it?</h2>
+        <span>
+          Tools such as profile and text calculator show
+          the value of your stock options and exercise cost.
+        </span>
+      </div>
+      <div class="box flex-bet">
+        <i class="fa-solid fa-briefcase"></i>
+        <p>Business Loan</p>
+        <h2>I own my shares -can I get liquidity now without selling?</h2>
+        <span>
+          Tools such as profile and text calculator show
+          the value of your stock options and exercise cost.
+        </span>
+      </div>
+    </div>
+  </div>
+  <!-- End Blog -->
+
+  <!-- Start Section -->
+  <div class="section">
+    <div class="container flex-bet">
+      <div class="image">
+        <img src="images/home.png" alt="">
+        <p>99% <span>Customer Satisfaction</span></p>
+      </div>
+      <div class="text flex-bet">
+        <h3>We guide projects and organizations in making the right decisions</h3>
+        <span>
+          Tools such as profile and text calculator show
+          the value of your stock options and exercise cost.
+          The brochure must grab a viewer's attention and hold it
+          long enough to deliver the pertinent information
+        </span>
+        <hr>
+        <li>Monthly recurring revenue</li>
+        <li>Customer acquisition cost</li>
+        <li>Number of customer</li>
+        <button>Learn More</button>
+      </div>
+    </div>
+  </div>
+  <!-- End Section -->
+  <!-- Start About -->
+  <div id="about" class="about">
+    <div class="main-title flex-cen">
+      <h2>Why Choose Us</h2>
+      <p>
+        Tools such as profile and text calculator show
+        the value of your stock options and exercise cost.
+      </p>
+    </div>
+    <div class="container grid-4-box">
+      <div class="info flex-bet">
+        <i class="fa-solid fa-hand-pointer"></i>
+        <h2>Quick Apply</h2>
+        <p>
+          Tools such as profile and text calculator show
+          the value of your stock options and exercise cost.
+          long enough to deliver the pertinent information
+        </p>
+      </div>
+      <div class="info flex-bet">
+        <i class="fa-solid fa-clipboard-list"></i>
+        <h2>Online & Secure</h2>
+        <p>
+          Tools such as profile and text calculator show
+          the value of your stock options and exercise cost.
+          long enough to deliver the pertinent information
+        </p>
+      </div>
+      <div class="info flex-bet">
+        <i class="fa-solid fa-clock"></i>
+        <h2>Just Time</h2>
+        <p>
+          Tools such as profile and text calculator show
+          the value of your stock options and exercise cost.
+          long enough to deliver the pertinent information
+        </p>
+      </div>
+      <div class="info flex-bet">
+        <i class="fa-solid fa-hand-holding-dollar"></i>
+        <h2>Low Interst</h2>
+        <p>
+          Tools such as profile and text calculator show
+          the value of your stock options and exercise cost.
+          long enough to deliver the pertinent information
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- End About -->
+
+  <!-- Start  Services-->
+  <div id="services" class="services flex-cen">
+    <div class="reviews flex-bet">
+      <i class="fa-solid fa-quote-left"></i>
+      <p id="title">
+      </p>
+      <div class="content flex-bet">
+        <img id="main-img" class="main-img" src="" alt="">
+        <div class="names">
+          <h3 id="name"></h3>
+          <span id="job-name"></span>
+        </div>
+        <div class="images">
+          <p style="animation: up-down 1s linear infinite forwards alternate;" id="img-1" class="img_1"></p>
+          <p style="background-color: #00000082;" id="img-2" class="img_2"></p>
+          <p style="background-color: #00000082;" id="img-3" class="img_3"></p>
+        </div>
+      </div>
+      <i class="fa-solid fa-quote-right"></i>
+    </div>
+  </div>
+
+  <!-- End  Services-->
+  <!-- Start Latest News -->
+  <div id="latest-news" class="latest-news">
+    <div class="main-title flex-cen">
+      <h2>Latest News</h2>
+      <p>
+        The brochure must grab a viewer's attention and hold it
+        long enough to deliver the pertinent information
+      </p>
+    </div>
+    <div id="reviews" class="container grid-2-box">
+    </div>
+  </div>
+  <!-- End Latest News -->
+  <!-- Start Footer -->
+  <div id="footer" class="footer">
+    <div class="container">
+      <div class="box box-1">
+        <h3><i class="fa-solid home fa-house"></i>EasyLo.</h3>
+        <span>
+          Tools such as profile and text calculator show
+          the value of your stock options and exercise cost.
+        </span>
+      </div>
+      <div class="box box-2">
+        <h3>Quick Links</h3>
+        <span>Work</span>
+        <span>Services</span>
+        <span>Products</span>
+        <span>Tips&Tricks</span>
+      </div>
+      <div class="box box-3">
+        <h3>Solution</h3>
+        <span>Air frieght</span>
+        <span>Ocean frieght</span>
+        <span>Large projects</span>
+      </div>
+      <div class="box box-4">
+        <h3>Newsletter</h3>
+        <span>Subscribe newsletter to get updates.</span>
+        <div class="inp">
+          <input type="email" placeholder="Enter Your Email">
+          <button><i class="fa-solid fa-play"></i></button>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fa-brands face fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands insta fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands linkd fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands git fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Footer -->
+  <div id="to-up" class="to-up flex-cen">
+    <i class="fa-solid fa-angle-up"></i>
+  </div>
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>

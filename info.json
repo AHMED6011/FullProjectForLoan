@@ -1,0 +1,48 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "img": "images/team-01.png",
+      "title": "I've good experience dealing with EasyLo. company, they are so professional including their services and customre care, they have so much expericnce in order to procide high quality services, I would recommend this company to all people that I know for sure, Thank you!.",
+      "name": "Omar Osama",
+      "job_name": "Businessman"
+    },
+    {
+      "id": 2,
+      "img": "images/team-02.png",
+      "title": "This was fantastic experience when I've been dealing with this company for many years, they help me a lot and my life is being better with them and because of getting benefit of their good services, recommended for sure for everyone!",
+      "name": "Shahad Hasan",
+      "job_name": "Designer"
+    },
+    {
+      "id": 3,
+      "img": "images/team-03.png",
+      "title": "I just want to say, at first I was afraid of dealing with loans companies but when I visited the company and talk to them, they ahve convinced me in a good and safe method where everthing was clarified perfectly and everyone can ensore that!",
+      "name": "Shaker Ali",
+      "job_name": "Front-End Developer"
+    }
+  ],
+  "latest_news": [
+    {
+      "id": 1,
+      "img": "images/portfolio-1.jpg",
+      "date": "12 Sep 2022",
+      "option": "What are my options worth and the cost exercise",
+      "title": "Tools such as profile and text calculator show the value of your stock options and exercise cost."
+    },
+    {
+      "id": 2,
+      "img": "images/portfolio-2.jpg",
+      "date": "23 March 2022",
+      "option": "What are my options worth and the cost exercise",
+      "title": "Tools such as profile and text calculator show the value of your stock options and exercise cost."
+    },
+    {
+      "id": 3,
+      "img": "images/portfolio-3.jpg",
+      "date": "7 Jul 2022",
+      "option": "What are my options worth and the cost exercise",
+      "title": "Tools such as profile and text calculator show the value of your stock options and exercise cost."
+    }
+  ]
+}
